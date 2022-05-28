@@ -21,7 +21,37 @@ public class FirstClass {
 
         int g = 100;
         int o = 11;
-        int d = 6;
-        System.out.println((g + o) * d);
+
+        System.out.println();
+        System.out.println("This is GO!");
+        System.out.println("g + o = " + (g + o));
+        System.out.println("g - o = " + (g - o));
+        System.out.println("g / o = " + (g / o));
+        System.out.println("g * o = " + (g * o));
+        System.out.println("g % o = " + (g % o));
+        System.out.println("sqoare root of g = " + Math.sqrt(g));
+
+
+        float s = 1.1f;
+        float n = 4.4f;
+        float a = 12.12f;
+        float k = 13.13f;
+        float e = 33.33f;
+        System.out.println();
+        System.out.println("No thread on snek.");
+        System.out.println("s + n = " + (s + n));
+        System.out.println("a - k = " + (a - k));
+        System.out.println("e / s = " + (e / s));
+        System.out.println("k * a = " + (k * a));
+        System.out.println("e % n = " + (e % n));
+
+        byte j = 1;
+        byte i = -128;
+        byte m = 127;
+        System.out.println();
+        System.out.println("Hello my name is Jim.");
+        System.out.println("j + i + m = " + (j + i + m));
+        System.out.println("j * i / m = " + (j * i / m));
+        System.out.println("j - i * m = " + (j - i * m));
     }
 }
