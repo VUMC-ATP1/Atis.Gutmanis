@@ -1,14 +1,13 @@
 package homework;
 
 import java.util.Scanner;
-import java.util.SortedMap;
 
 public class HomeWorkTwo {
 
-    public static void main(String[] args) {
+    public static int main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        /*
+/*
         int x;
         x = 9;
         System.out.println("Is x bigger than 0? Answer: " + (x > 0));
@@ -19,10 +18,11 @@ public class HomeWorkTwo {
         System.out.println("Is x times x bigger than 10? Answer: " + ((x * x > 10)));
 
 
+
         System.out.println();
         System.out.println("Which number is seen on package?");
-        int num = scanner.nextInt();
-        switch (num) {
+        int numb = scanner.nextInt();
+        switch (numb) {
             case 1:
                 System.out.println("Milk is valid until January");
                 break;
@@ -80,6 +80,7 @@ public class HomeWorkTwo {
             System.out.println(num3 + " is the biggest number!");
         else System.out.println("Are those the same numbers?");
 
+        System.out.println();
 
         System.out.println("Open your eyes. What color do you see?");
         String color = scanner.next();
@@ -92,7 +93,7 @@ public class HomeWorkTwo {
         else if (color.equals("black"))
             System.out.println("Did you even open your eyes or are ya screwing with me, son?");
         else System.out.println("Please call an adult, you are not ready for traffic.");
-*/
+
 
         System.out.println();
         printBusinessCard();
@@ -112,33 +113,37 @@ public class HomeWorkTwo {
         System.out.println("Dzimšanas gads: 1563");
         System.out.println("############");
 
+ */
+        /*
+    }
+
+    //Nothing works after this line. I suspect I have NO idea how methods work or how to fix it all. While I want to
+    figure it out and will return to it, right now I have other homework and I've been stuck too long on this.
+         */
+    {
+        private int[] printBusinessCardTwo (String name,int phone, int year){
+        System.out.println("Vizītkarte");
+        System.out.println("############");
+        System.out.println("Vārds: " + name);
+        System.out.println("Telefons: " + phone);
+        System.out.println("Dzimšanas gads: " + year);
+        System.out.println("############");
     }
 
 
-    public class Methods {
-        public void main(String[] args) {
-            printBusinessCardTwo("Klok", 13341441, 1432);
-            printBusinessCardTwo("Johnny", 1441440, 2001);
-        }
-
-        public void printBusinessCardTwo(String name, double phone, int year) {
-            ;
-            System.out.println("Vizītkarte");
-            System.out.println("############");
-            System.out.println("Vārds: " + name);
-            System.out.println("Telefons: " + phone);
-            System.out.println("Dzimšanas gads: " + year);
-            System.out.println("############");
-        }
+        public void main printBusinessCardTwo(String[],args){
+        printBusinessCardTwo("Alise", 43514235, 1443);
     }
+
+    }
+
+        int b = 20;
+        int a = 10;
+        int summa = sum(a, b);
+        System.out.println("a + b = " + summa);
+        System.out.println();
+
+        public static int sum(int number1, int number2) {
+            return number1 + number2;
+
 }
-
-
-
-
-
-
-
-
-
-
