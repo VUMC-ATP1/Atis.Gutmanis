@@ -4,10 +4,9 @@ import java.util.Scanner;
 
 public class HomeWorkTwo {
 
-    public static int main(String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-/*
         int x;
         x = 9;
         System.out.println("Is x bigger than 0? Answer: " + (x > 0));
@@ -16,8 +15,6 @@ public class HomeWorkTwo {
         System.out.println("Is x less or equal than five and x is smaller than ten? Answer: " + (!(x <= 5) && (x < 10)));
         System.out.println("Is x equal to 0? And is it equal to 10? Answer: " + ((x == 0) && (x == 10)));
         System.out.println("Is x times x bigger than 10? Answer: " + ((x * x > 10)));
-
-
 
         System.out.println();
         System.out.println("Which number is seen on package?");
@@ -100,9 +97,21 @@ public class HomeWorkTwo {
         printBusinessCard();
         printBusinessCard();
 
+        printBusinessCardTwo("Alise", 43514235, 1443);
+        printBusinessCardTwo("Mareks", 4234324, 2432);
 
+        int b = 20;
+        int a = 10;
+        int summa = sum(a, b);
+        System.out.println("a + b = " + summa);
+        System.out.println();
+
+        double s = 3;
+        double u = 4;
+        double n = 5;
+        double vid = average(s, u, n);
+        System.out.println((vid));
     }
-
 
     public static void printBusinessCard() {
         System.out.println("Vizītkarte");
@@ -113,15 +122,9 @@ public class HomeWorkTwo {
         System.out.println("Dzimšanas gads: 1563");
         System.out.println("############");
 
- */
-        /*
-    }
 
-    //Nothing works after this line. I suspect I have NO idea how methods work or how to fix it all. While I want to
-    figure it out and will return to it, right now I have other homework and I've been stuck too long on this.
-         */
-    {
-        private int[] printBusinessCardTwo (String name,int phone, int year){
+    }
+        public static void printBusinessCardTwo (String name ,int phone, int year){
         System.out.println("Vizītkarte");
         System.out.println("############");
         System.out.println("Vārds: " + name);
@@ -129,21 +132,9 @@ public class HomeWorkTwo {
         System.out.println("Dzimšanas gads: " + year);
         System.out.println("############");
     }
+    public static int sum(int number1, int number2) {
+        return number1 + number2;}
 
-
-        public void main printBusinessCardTwo(String[],args){
-        printBusinessCardTwo("Alise", 43514235, 1443);
-    }
-
-    }
-
-        int b = 20;
-        int a = 10;
-        int summa = sum(a, b);
-        System.out.println("a + b = " + summa);
-        System.out.println();
-
-        public static int sum(int number1, int number2) {
-            return number1 + number2;
-
-}
+    public static double average(double num1, double num2, double num3) {
+        return ((num1 + num2 + num3) / 3);
+    }}

@@ -1,5 +1,5 @@
-package homework;
-
+//package homework;
+/*
 import java.util.Enumeration;
 import java.util.Scanner;
 import java.util.Arrays;
@@ -11,7 +11,7 @@ public class LoopHomeWork {
         // 1) Uzrakstiet programmu, kas no lietotāja nolasa veselus skaitļus un
         // pstājas, izvadot uz ekrānu tekstu:  “Gatavs”, kad šo vērtību summa pārsniedz 100.
 
-        /*
+
         Scanner scan = new Scanner(System.in);
         int skaitlis;
         int a = 0;
@@ -226,7 +226,7 @@ public class LoopHomeWork {
 
         }}}}
 
-/*
+*/
 
 
 
