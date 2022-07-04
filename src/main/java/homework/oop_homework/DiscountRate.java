@@ -7,8 +7,6 @@ public class DiscountRate {
     private static double productDiscountPremium = 0.1;
     private static double productDiscountGold = 0.1;
     private static double productDiscountSilver = 0.1;
-
-    // Getters
     public static double getServiceDiscountRate(String type) {
         switch (type) {
             case "Premium": return serviceDiscountPremuim;
@@ -17,7 +15,6 @@ public class DiscountRate {
             default: return 0;
         }
     }
-
     public static double getProductDiscountRate(String type) {
         switch (type) {
             case "Premium": return productDiscountPremium;
